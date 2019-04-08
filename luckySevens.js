@@ -13,6 +13,9 @@ var firstDice;
 var secondDice;
 var dieSum;
 var betsArray =[];
+var highestWin;
+var totalRolls;
+var rollCount;
 
 function showResults() {
 document.getElementById("results").style.display = "block";
