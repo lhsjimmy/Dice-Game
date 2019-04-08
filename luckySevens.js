@@ -46,10 +46,12 @@ function start(){
     gameMoney += 4;
     console.log("Win 4")
     }
-  betsArray.push(gameMoney)
+ betsArray.push(gameMoney)
+  }
+ 
   highestWin = Math.max.apply(Math, betsArray);
   totalRolls= betsArray.length
   rollCount = 1 + betsArray.indexOf(highestWin);
-  }
+  
   showResults();
   }
